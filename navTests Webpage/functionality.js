@@ -1,4 +1,4 @@
-$(function() {
+/*$(function() {
 	$('#submenu').hide();
 	$("#links").on("mouseover", function(){
 		$("#submenu").show();
@@ -11,3 +11,4 @@ $(function() {
 	//	$("#submenu").toggle();
 	//})
 })
+*/
