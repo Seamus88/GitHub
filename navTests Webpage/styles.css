@@ -4,6 +4,7 @@ body {
 	font-family: Poppins, sans-serif;
 }
 
+/* Navigation Bar */
 nav {
 	width: 100%;
 	margin: 0px;
@@ -16,31 +17,35 @@ ul {
 	padding: 0px;
 	list-style-type: none;
 }
-
 nav ul li:hover {
 	background-color: #534485DB;
 }
-
 nav ul li ul li:hover {
 	background-color: #534485DB;
 }
 a {
-	margin: 16px;
-	padding: 32px;
+	margin: 0px;
+	padding: 0px 16px;
 	text-decoration: none;
 	font-size: 20px;
 	line-height: 2em;
 	color: #020202FF;
 }
-
 ul li ul {
 	display: none;
 }
-
 ul li:hover ul {
 	display: block;
 	position: absolute;
 	background-color: #ddd;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	font-family: 'Poppins', sans-serif;
+}
+
+/* Main Page */
+
+main #mainContainer {
+	display: grid;
+	grid-template-columns: [first] 30px [line2] 20px [line3] auto [line4] 20px [line5] 30px;
+	grid-template-rows: [toprow] 30px [row2] 20px [row3] auto [row4] 20px [row5] 30px;
 }
