@@ -12,12 +12,6 @@ $(function() {
 		"description": "A random quote generator I made while doing a freeCodeCamp course.",
 		"link": "https://codepen.io/Seamus88/pen/yPBKJJ"
 	}];
-	
-
-
-
-	$("main").append("<h1>" + name + "</h1>");
-	$("main").append("<h2>" + title + "</h2>");
 
 	
 })
