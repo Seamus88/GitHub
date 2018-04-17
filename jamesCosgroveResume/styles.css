@@ -46,7 +46,8 @@ ul li:hover ul {
 
 main #mainContainer {
 	display: grid;
-	grid-template-columns: [line1] 20px [line2] 100px [line3] 200px [line4] 20px [line5];
-	grid-template-rows: [row1] 20px [row2] 100px [row3] 20px [row4];
+	grid-template-columns: 33% 33% 33%;
+	grid-gap: 10px;
+	background-color: #fff;
 }
 
