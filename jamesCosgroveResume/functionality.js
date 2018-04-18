@@ -1,6 +1,8 @@
 $(function() {
 	var name = "James Cosgrove";
+
 	var title = "Student";
+
 	var projects = [{
 		name: "Pixel Art Maker",
 		date: "January 2018",
@@ -12,6 +14,7 @@ $(function() {
 		description: "A random quote generator I made while doing a freeCodeCamp course.",
 		link: "https://codepen.io/Seamus88/pen/yPBKJJ"
 	}];
+	
 	var schooling = [{
 		school: "Joliet Central High School",
 		graduated: 2006
@@ -19,5 +22,6 @@ $(function() {
 		school: "Truman College",
 		graduated: "Currently Attending"
 	}]
-	
+
+
 })

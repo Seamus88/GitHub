@@ -1,6 +1,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
+	background-color: #222;
 	font-family: Poppins, sans-serif;
 }
 
@@ -46,10 +47,9 @@ ul li:hover ul {
 
 #mainContainer {
 	display: grid;
-	grid-template-columns: 31% 33% 31%;
+	grid-template-columns: 31% 36% 31%;
 	grid-gap: 10px;
-	background-color: #fff;
-	margin: 10px;
+	background-color: #222;
 }
 
 .item {
@@ -59,4 +59,27 @@ ul li:hover ul {
 	padding: 20px;
 	font-size: 150%;
 }
+
+#name {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	text-align: center;
+	background-color: #222;
+	border-radius: 0px;
+}
+
+#name img {
+	display: inline-block;
+	border-radius: 25px;
+	margin: 25px 0 0 0;
+	border: solid #534485DB 2px;
+	box-shadow: 0px 0px 25px #534485DB;
+}
+
+#name h1 {
+	display: inline-block;
+}
+
 
