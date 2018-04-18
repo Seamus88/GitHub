@@ -46,18 +46,17 @@ ul li:hover ul {
 
 #mainContainer {
 	display: grid;
-	grid-template-columns: ;
+	grid-template-columns: 31% 33% 31%;
 	grid-gap: 10px;
 	background-color: #fff;
+	margin: 10px;
 }
 
 .item {
-
-}
-
-.header {
-	width: 66%;
-	height: 33%;
-	border: 10px grey solid;
+	background-color: #444;
+	color: #fff;
 	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
 }
+
