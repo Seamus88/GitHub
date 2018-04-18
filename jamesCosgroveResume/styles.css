@@ -44,10 +44,20 @@ ul li:hover ul {
 
 /* Main Page */
 
-main #mainContainer {
+#mainContainer {
 	display: grid;
-	grid-template-columns: 33% 33% 33%;
+	grid-template-columns: ;
 	grid-gap: 10px;
 	background-color: #fff;
 }
 
+.item {
+
+}
+
+.header {
+	width: 66%;
+	height: 33%;
+	border: 10px grey solid;
+	border-radius: 5px;
+}
